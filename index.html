@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap431.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light"><i>Belajar API</i>
+        <a class="navbar-brand" href="#">Cari Pilem</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <input class="form-control mr-sm-2" id="key" placeholder="Cari" aria-label="Search">
+            <button id="cari" class="btn btn-outline-success mt-2 " type="submit">Nyari</button>
+
+        </div>
+    </nav>
+    <!-- konten hasil pencarian -->
+    <div class="container">
+        <div class="row mt-5" id="list">
+
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="detailFilm">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Detail Film</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span >&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="jquery331.min.js"></script>
+<script src="popper1.14.7.min.js"></script>
+<script src="bootstrap431.js"></script>
+<script src="script.js"></script>
+
+</html>
