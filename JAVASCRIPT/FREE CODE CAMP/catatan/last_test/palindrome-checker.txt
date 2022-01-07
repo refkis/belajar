@@ -1,0 +1,15 @@
+function palindrome(str) {
+const splitStr = str.replace(/[\W_]/g,'').toLowerCase()
+console.log(splitStr)
+const newStr= splitStr.split("").reverse().join("")=== splitStr 
+
+  //  return (newStr) ? true :false
+return newStr
+// return splitStr
+// (oldStr === newStr) ? true :false
+  
+  
+}
+console.log(palindrome("eye"))
+console.log(palindrome("My age is 0, 0 si ega ym."))
+console.log(palindrome("0_0 (: /-\ :) 0-0"))

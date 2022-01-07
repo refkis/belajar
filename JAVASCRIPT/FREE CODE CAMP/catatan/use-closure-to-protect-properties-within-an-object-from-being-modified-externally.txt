@@ -1,0 +1,7 @@
+function Bird() {
+let weight = 15;
+this.getWeight = () => weight
+}
+
+let gereja = new Bird()
+console.log(gereja.getWeight())

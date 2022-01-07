@@ -1,0 +1,18 @@
+function fearNotLetter(str) {
+  const source = str.split("").map((el) => el.charCodeAt(0))
+  const compare = []
+const hurufAwal = str.charCodeAt(0)
+const hurufAkhir = str.charCodeAt(str.length -1)
+// console.log(source)
+for (let i = hurufAwal ; i <= hurufAkhir ;i++){
+  compare.push(i)
+  
+}
+const hasil = compare.filter((el )=> !source.includes(el))[0]
+// console.log(hasil)
+
+
+  return hasil ? String.fromCharCode(hasil) : undefined ;
+}
+
+fearNotLetter("abce");

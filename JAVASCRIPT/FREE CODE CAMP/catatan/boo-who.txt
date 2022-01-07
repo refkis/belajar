@@ -1,0 +1,8 @@
+function booWho(bool) {
+ let a =  typeof(bool) == "boolean" ? true : false
+  return a
+}
+
+console.log(booWho(true));
+console.log(booWho(false));
+console.log(booWho([1, 2, 3]));

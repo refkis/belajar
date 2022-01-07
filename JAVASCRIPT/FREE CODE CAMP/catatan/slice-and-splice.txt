@@ -1,0 +1,12 @@
+function frankenSplice(arr1, arr2, n) {
+  let arr = arr1
+  const newArr = arr2.slice()
+  
+  newArr.splice(n,0,...arr)
+ for ( let i=0; i<arr1.length;i++){
+    arr = arr1[i]
+ }
+ console.log(arr1, arr2)
+return newArr
+}
+console.log(frankenSplice([1, 2, 3], [4, 5], 1))

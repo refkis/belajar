@@ -1,0 +1,22 @@
+function whatIsInAName(collection, source) {
+  const arr = [];
+  // Only change code below this line
+ let keys = Object.keys(source)
+    // let keys2 =Object.keys(collection[0])
+    // console.log(keys2)
+    collection.forEach((obj) => {
+        let temp = []
+        keys.forEach((key) => {
+            if (obj[key] === source[key]) {
+                temp.push(obj)
+            }
+        })
+
+        if (temp.length >= keys.length) {
+            arr.push(obj)
+        }
+    })
+  // Only change code above this line
+  return arr;
+}
+console.log(whatIsInAName([{ "apple": 1 }, { "apple": 1 }, { "apple": 1, "bat": 2 }], { "apple": 1 }));

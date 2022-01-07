@@ -1,0 +1,11 @@
+const squareList = arr => {
+  // Only change code below this line
+  const newArr = arr
+    .filter(angka => angka > 0 && Number.isInteger(angka))
+    .map(angka => angka * angka)
+  return newArr;
+  // Only change code above this line
+};
+
+const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
+console.log(squaredIntegers);

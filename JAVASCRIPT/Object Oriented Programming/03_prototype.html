@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prototype</title>
+    </head>
+    <body>
+        <script>
+            function Person(firstName, lastName) {
+
+                this.firstName = firstName
+                this.lastName = lastName
+                this.sayHello = function (name) {
+                    console.log(`Hi ${name}, saya ${
+                        this.firstName
+                    }`)
+                }
+            }
+            const refki = new Person("Refki", "Santriono")
+            console.log(refki)
+
+            // menambahkan ke dalam prototype __proto__
+            Person.prototype.sayBye = function () {
+                console.log("Good Bye")
+            }
+
+            // alur mengakses , dicari di object -> proto object -> proto class
+
+            refki.sayBye ()
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+function convertHTML(str) {
+  const newStr = str.split("")
+  const hasil = newStr.map((el)=>{
+    console.log(el)
+switch(el){
+case '&' : return '&amp;'
+case '<' : return '&lt;'
+case '>' : return '&gt;'
+case '"' : return '&quot;'
+case "'" : return '&apos;'
+default : return el
+}
+  })
+  return hasil.join("");
+}
+console.log(convertHTML('Stuff in "quotation marks"'))
+console.log(convertHTML('<>'))
+// convertHTML("Dolce & Gabbana");

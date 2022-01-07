@@ -1,0 +1,13 @@
+function translatePigLatin(str) {
+  if (str[0].match(/[aiueo]/)){
+    return str +'way'
+  } else {
+
+  return str.replace(/([^aiueo]+)(\w*)/,'$2$1ay') };
+  // } else{
+  // return str.replace(/(\w{1})(\w{1})/,'$2$1ay') ;
+
+  // }
+}
+console.log(translatePigLatin("consonant"))
+;

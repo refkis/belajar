@@ -1,0 +1,15 @@
+// function pairElement(str) {
+  
+//   return str;
+// }
+const pairElement = (str) => {
+  let pair={
+    C: "G",
+    G: "C",
+    T: "A",
+    A: "T"
+  }
+ return str.split("").map((el) => [el, pair[el]])
+}
+console.log(pairElement("GCG"))
+;

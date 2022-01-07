@@ -1,0 +1,23 @@
+function pairElement(str) {
+  const splitStr = str.split("")
+  let newStr = []
+  splitStr.forEach((el) => {
+    
+    if (el === "G") {
+      newStr.push(["G", "C"])
+    } else if (el === "C") {
+      newStr.push(["C", "G"])
+
+    } else if (el === "T") {
+      newStr.push(["T", "A"])
+
+    } else if (el === "A"){
+      newStr.push(["A", "T"])
+    }
+
+  })
+
+  return newStr;
+}
+console.log(pairElement("GCG"))
+;

@@ -1,0 +1,13 @@
+function getIndexToIns(arr, num) {
+  let newArr = arr.slice()
+ newArr.push(num)
+ newArr.sort((a, b) => a - b)
+console.log(newArr)
+let find= newArr.indexOf(num)
+ 
+
+  return find
+}
+
+console.log(getIndexToIns([40, 60], 50))
+;

@@ -1,0 +1,3 @@
+const bouncer = (arr) => arr.filter (el => Boolean(el))
+
+console.log(bouncer([7, "ate", "", false, 9]));

@@ -1,0 +1,6 @@
+function destroyer(arr, ...arr2) {
+const newArr = arr.filter((el) => !arr2.includes(el))
+return newArr
+}
+console.log(destroyer([1, 2, 3, 1, 2, 3], 2, 3))
+;

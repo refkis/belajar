@@ -1,0 +1,13 @@
+function titleCase(str) {
+  let b= []
+  let a=str.split(' ');
+  //  console.log(a)
+  for (let i=0 ; i < a.length ; i++){
+  let newArr  = a[i][0].toUpperCase() + a[i].substring(1).toLowerCase();
+  b.push(newArr)
+  }
+  return b.join(" ")
+}
+
+console.log(titleCase("I'm a little tea pot"));
+console.log(titleCase("HERE IS MY HANDLE HERE IS MY SPOUT"));

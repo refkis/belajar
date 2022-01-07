@@ -1,0 +1,13 @@
+function sumAll(arr) {
+  // const sum = arr.reduce((a,b)=>a+b)
+  // return sum;
+const newArr=arr.sort().sort((a, b) => a - b)
+let arr1= newArr[0]
+let arr2 =newArr[1]
+let result = 0
+ for (let i = arr1; i<= arr2 ; i++ )
+{result+=i}
+return result
+}
+sumAll([1, 4])
+;

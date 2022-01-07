@@ -1,0 +1,11 @@
+function spinalCase(str) {
+ let newStr= str.replace(/([a-z])([A-Z])|[\W_]/g,'$1-$2');
+
+return newStr.toLowerCase()
+
+}
+console.log(spinalCase('This Is Spinal Tap'))
+console.log(spinalCase("The_Andy_Griffith_Show"))
+console.log(spinalCase('thisIsSpinalTap'))
+console.log(spinalCase('This Is Spinal Tap'))
+;

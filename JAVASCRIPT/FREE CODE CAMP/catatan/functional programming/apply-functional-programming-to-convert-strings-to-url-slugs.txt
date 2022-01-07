@@ -1,0 +1,9 @@
+// Only change code below this line
+function urlSlug(title) {
+const newTitle= title.split(" ")
+.filter(el => el)
+.join("-").toLowerCase()
+return newTitle
+}
+console.log(urlSlug(" Winter Is  Coming"))
+// Only change code above this line
