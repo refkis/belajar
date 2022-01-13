@@ -96,16 +96,20 @@ public class TypeData {
         // a++;
         // System.out.println(a);// 2
 
-        //Switch Lamda
-var nilai = "";
-        switch (nilai) {
-            case "A"-> System.out.println("Dengan Pujian");
-            case "B","C"-> System.out.println("Pujian");            
-            case "D","E"-> System.out.println("Tidak Lulus");      
-            default->System.out.println("Anda Salah Jurusan");            
+        // Switch Lamda
+        // var nilai = "";
+        // switch (nilai) {
+        // case "A"-> System.out.println("Dengan Pujian");
+        // case "B","C"-> System.out.println("Pujian");
+        // case "D","E"-> System.out.println("Tidak Lulus");
+        // default->System.out.println("Anda Salah Jurusan");
+        // }
+
+        
+        for (int i = 1; i <= 10; i++) {
+            System.out.println("nilai ke " + i);
+
         }
-
-
 
     }
 
