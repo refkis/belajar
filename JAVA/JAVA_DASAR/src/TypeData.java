@@ -106,10 +106,16 @@ public class TypeData {
         // }
 
         
-        for (int i = 1; i <= 10; i++) {
-            System.out.println("nilai ke " + i);
+        // for (int i = 1; i <= 10; i++) {
+        //     System.out.println("nilai ke " + i);
 
-        }
+        // }
+
+        sayHelloWorld();
+
+    }
+    static void sayHelloWorld (){
+        System.out.println("Hello World");
 
     }
 
