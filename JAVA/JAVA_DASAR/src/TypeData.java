@@ -111,12 +111,19 @@ public class TypeData {
 
         // }
 
-        sayHelloWorld();
+        // sayHelloWorld();
+        var hasil = penjumlahan(100, 200);
+        System.out.println(hasil);
 
     }
-    static void sayHelloWorld (){
-        System.out.println("Hello World");
+    // static void sayHelloWorld (){
+    //     System.out.println("Hello World");
 
+    // }
+
+    static int penjumlahan(int value1, int value2){
+        var total  = value1 +value2;
+        return total;
     }
 
 }
