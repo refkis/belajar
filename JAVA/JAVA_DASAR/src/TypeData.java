@@ -75,26 +75,37 @@ public class TypeData {
         // System.out.println(a % b);
 
         // Augmanted Asign
-        int a = 100;
+        // int a = 100;
 
-        a += 9;
-        System.out.println(a);// 109
+        // a += 9;
+        // System.out.println(a);// 109
 
-        a -= 9;
-        System.out.println(a);// 100
+        // a -= 9;
+        // System.out.println(a);// 100
 
-        a *= 9;
-        System.out.println(a);// 900
+        // a *= 9;
+        // System.out.println(a);// 900
 
-        a /= 9;
-        System.out.println(a);// 100
+        // a /= 9;
+        // System.out.println(a);// 100
 
-        a %= 9;
-        System.out.println(a);// 1
+        // a %= 9;
+        // System.out.println(a);// 1
 
-        // Unary
-        a++;
-        System.out.println(a);// 2
+        // // Unary
+        // a++;
+        // System.out.println(a);// 2
+
+        //Switch Lamda
+var nilai = "";
+        switch (nilai) {
+            case "A"-> System.out.println("Dengan Pujian");
+            case "B","C"-> System.out.println("Pujian");            
+            case "D","E"-> System.out.println("Tidak Lulus");      
+            default->System.out.println("Anda Salah Jurusan");            
+        }
+
+
 
     }
 
