@@ -10,7 +10,7 @@ public class MotorcycleApp {
 
         System.out.println(motor1.name);
         System.out.println(motor2.cc);
-        System.out.println(motor3.brand);
+        System.out.println(motor2.brand);
 
     }
 }

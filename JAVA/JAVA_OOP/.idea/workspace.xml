@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="282260ba-5217-421b-a21e-091b04599ecd" name="Changes" comment="Java OOP membuat class dan object">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_OOP/Motorcycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA_OOP/Motorcycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA_OOP/MotorcycleApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA_OOP/MotorcycleApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Motorcycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MotorcycleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MotorcycleApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

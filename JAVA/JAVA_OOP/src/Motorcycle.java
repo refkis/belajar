@@ -1,17 +1,19 @@
- class Motorcycle {
+class Motorcycle {
     String name;
     String brand;
     String cc;
 
-    Motorcycle(String paramName,String paramBrand){
+    Motorcycle(String paramName, String paramBrand) {
         name = paramName;
         brand = paramBrand;
     }
-    Motorcycle(String paramCc){
+
+    Motorcycle(String paramCc) {
+        this(null, null);
         cc = paramCc;
     }
-    Motorcycle(){
 
+    Motorcycle() {
     }
 
 }
