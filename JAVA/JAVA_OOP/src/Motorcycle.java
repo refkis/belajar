@@ -3,8 +3,8 @@ class Motorcycle {
     String brand;
     String cc;
 
-    Motorcycle(String paramName, String paramBrand) {
-        name = paramName;
+    Motorcycle(String name, String paramBrand) {
+        this.name = name;
         brand = paramBrand;
     }
 
