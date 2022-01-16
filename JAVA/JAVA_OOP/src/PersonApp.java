@@ -7,9 +7,7 @@ public class PersonApp {
         System.out.println(person1.lastName);
         person1.sayHello("Kamu");
 
-        Person person2 = new Person();
-        Person person3;
-        person3 = new Person();
+       
 
 
     }
